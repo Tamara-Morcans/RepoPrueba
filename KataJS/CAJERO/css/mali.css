@@ -1,0 +1,118 @@
+html,
+body {
+  height: 100%;
+  background-image: url("https://s1.1zoom.me/b4240/588/Evening_Bridges_Portugal_Vasco_da_Gama_bridge_569107_1920x1080.jpg");
+   
+}
+
+body {
+
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="nombre"] {
+
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.advertencia{
+    font-size: 12px;
+    margin-bottom: 0;
+    display: none;
+}
+
+
+.advertencia_mensaje{
+    background: #f66060;
+    border-radius: 5px;
+    display: none;
+    
+    
+}
+.advertencia_mensaje-activo{
+    display: block;
+}
+
+
+.advertencia-activo{
+    display: block;
+}
+
+
+
+.formulario__validacion-estado{
+    position:relative;
+    z-index: 100 ;
+    right: -130px;
+    bottom: 40px;
+    opacity: 0;
+}
+
+/*Estilos para validaxion*/
+
+.formulario__grupo-correcto .formulario__validacion-estado{
+    color: #1ed12d;
+    opacity: 1;
+}
+
+
+.formulario__grupo-incorrecto .formulario__validacion-estado{
+    color: #bb2929;
+    opacity: 1;
+}
+
+.formulario__grupo-incorrecto .form-control{
+  border: 3px solid #bb2929;
+}
+
+
+
+.formulario__mensaje-exito {
+	font-size: 14px;
+	color: #119200;
+	display: none;
+}
+
+.formulario__mensaje-exito-activo {
+	display: block;
+}
+
+
+/*Foto de perfil*/
+.mali {
+    border-radius: 150px;
+}

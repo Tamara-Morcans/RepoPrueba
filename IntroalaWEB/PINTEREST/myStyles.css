@@ -1,0 +1,138 @@
+
+header{
+    width: 100%;
+    display: flex;
+}
+
+.my-container{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0Px;
+    background-color:#fff;
+    height: 80px;
+    padding: 0px 16px 4px 16px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.my-row{
+    height:56px ;
+    width: 100%;
+    align-items: center;  
+}
+
+.my-col{
+    background-color: rgb(253, 255, 255);
+    font-weight: 700;
+    padding: 6px;
+}
+
+
+.header a{
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+
+.header a:hover{
+    background-color:#efefef;
+    border-radius: 30%!important;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+
+
+    
+    }
+
+.contenedorLogo{
+    margin: auto;
+    padding-left: 15px;
+    
+}
+
+
+.button {
+        border: none;
+        color: #ffffff;
+        background-color:#111111;
+        height: 49px;
+        min-width: 60px;
+        border-radius: 24px;
+        padding: 10px 16px 10px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: 700;
+    }
+input{
+    float: right;
+    height: 49px;
+    margin-right: 16px;
+    border: none;
+    color: #767676;
+    background-color:#EFEFEF;
+    padding: 10px 16px 10px 16px;
+    font-size: 17px;
+    flex: 1 1 auto;
+    width: 100%;
+    background-color: transparent;
+
+}
+.contenedorBusqueda{
+    background-color: #EFEFEF;
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+    padding-left: 15px;
+    min-width: 100%;
+
+}
+
+.contenedorLupa{
+    
+}
+
+.contenedorLogo img{
+    height: 24px;
+    border-radius: 50px;
+    background-color: transparent;
+
+}
+
+
+.galeria img{
+    border-radius: 20px;
+    margin-top: 0ch;
+    margin-right: 0 auto;
+    padding: 5px 5px;  
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    
+}
+
+.galeria .child1 img{
+    width: 100%;
+    height: 50vh;
+}
+
+.galeria .child2 img{
+    width: 100%;
+    height: 50%;
+}
+
+
+.galeria .child3 img{
+    
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+}

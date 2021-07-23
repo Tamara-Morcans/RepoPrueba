@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maui</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container align-items-center ">
+        <!-- Bootstrap core CSS -->
+        <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/index.css">
+
+
+
+        <style>
+            .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+
+            @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                    font-size: 3.5rem;
+                }
+            }
+        </style>
+
+
+
+        <!-- Custom styles for this template -->
+        <link href="./css/Maui.css" rel="stylesheet">
+        </head>
+
+        
+        <body class="text-center">           
+
+            <form class="form-signin" id="formulario">
+                <img class=" mali mb-4" src="./assets/img/team/3.jpg" alt="" width="300" height="300"  >
+                <h1 class="h3 mb-3 font-weight-normal text-white"> <b>¡Bienvenido Maui! Ingresa:</h1>
+
+                <!--Aquí inicia USUARIO-->
+                <div class="formulario__grupo" id="grupo__nombre">
+                <label for="inputNombre" class="label sr-only">Nombre</label>
+                <input type="nombre" name="nombre" id="inputNombre" name="inputNombre" class="form-control" placeholder="Nombre" required autofocus>
+                <i class=" formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="advertencia">El usuario tiene que tener nombre Mali.</p>
+                <!--Aquí termina USUARIO-->
+
+
+                <!--Aquí inicia CONTRASEÑA-->
+
+
+                <div class="formulario__grupo" id="grupo__password">
+                <label for="inputPassword" class="label sr-only">Contraseña</label>
+                <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Contraseña" required >
+                <i class=" formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="advertencia">La contraseña debe tener 3-7 caracteres, puede incluir numeros,letas y símbolos</p>
+                <!--Aquí termina CONTRASEÑA-->
+
+
+                <!--Aquí inicia checkbox-->
+                <div class="formilario__grupo">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Recordar contraseña</label>
+                <!--Aquí termina checkbox-->
+
+
+                <!--Aquí inicia ADVERTENCIA-->
+                <div class="advertencia_mensaje" id="advertencia">
+                    <p><i class="fas fa-exclamation-triangle"></i> <b>Error</b> Por favor rellene el formulario correctamente.</p>
+                </div>
+                <!--Aquí termina ADVERTENCIA-->
+
+                <!--Aquí inicia BOTON "ENTRAR"-->
+                <a href="cajeroMaui.html">
+                <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="login(this.form)">Entrar</button>
+                 </a>
+                <p class="mt-5 mb-3 text-muted">&copy; 2017-2021</p>
+                 <!--Aquí termina BOTON "ENTRAR"-->
+
+            
+            </form>
+    </div>
+
+    <script src="./js/formsMaui.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>

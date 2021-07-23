@@ -1,0 +1,98 @@
+html, body {
+    font-size: 24px;
+    font-family: 'Pattaya', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(https://image.shutterstock.com/shutterstock/photos/417822544/display_1500/stock-vector-travel-pattern-with-linear-icons-seamless-vector-background-travel-concept-417822544.jpg) fixed;
+    
+}
+header {
+    background-color: blue;
+}
+
+
+
+nav {
+    display: inline-block;
+    width: 75%;
+    padding-right: 30px;
+    box-sizing: border-box;
+
+}
+.logos {
+    width: 24%;
+    display: inline-block;
+    padding: 10px,0px,15px;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style-type: none ;
+    text-align: right;
+}
+
+nav ul li { 
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: cornsilk;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #C388A3;
+}
+
+/*Aquí comienza mi hero*/
+#hero {
+background-image: url(http://viacam.com.mx/imagenes/banner01.jpg);
+width: 100%;
+height: 300px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+main {
+    width: 1140px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(255,255,255,0.95);
+    padding: 30px;
+    margin-top: 60px;
+    border-radius: 90px;
+}
+
+#itinerary img {
+    max-width: 844px;
+}
+
+h1{
+    color: blue;
+}
+
+h2{
+    color: coral;
+}
+
+h3{ 
+    color: purple;
+}
+
+h4{ 
+    color: salmon;
+}
+
+h5{
+    color: hotpink;
+}
+
+p {
+    color: green;
+    font-family: 'Playfair Display', serif;
+}
