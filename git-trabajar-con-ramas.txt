@@ -1,0 +1,7 @@
+//Crear rama
+git branch dev-eduardo
+//Cambiar rama
+git checkout dev-eduardo
+//Subir cambios a tu rama
+git push origin dev-eduardo
+//
